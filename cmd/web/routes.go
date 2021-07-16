@@ -19,7 +19,6 @@ func Routes(app *config.AppConfig) http.Handler {
 
 	mux.Get("/", handlers.Repo.Home)
 	mux.Get("/about", handlers.Repo.About)
-	mux.Get("/euros", handlers.Repo.Euros)
 
 	return mux
 }

@@ -48,7 +48,3 @@ func (m *Repository) About(w http.ResponseWriter, r *http.Request) {
 		StringMap: stringMap,
 	})
 }
-
-func (m *Repository) Euros(w http.ResponseWriter, r *http.Request) {
-	render.RenderTemplate(w, "euros.page.html", &models.TemplateData{})
-}
