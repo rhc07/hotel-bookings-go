@@ -2,8 +2,8 @@ package main
 
 import (
 	"net/http"
-
 	"github.com/justinas/nosurf"
+
 )
 
 // NoSurf add CRSF protection to all post requests

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/rhc07/basic-web-app/pkg/config"
-	"github.com/rhc07/basic-web-app/pkg/handlers"
-	"github.com/rhc07/basic-web-app/render"
+	"github.com/rhc07/hotel-bookings-go/pkg/config"
+	"github.com/rhc07/hotel-bookings-go/pkg/handlers"
+	"github.com/rhc07/hotel-bookings-go/render"
 )
 
 const portNumber = ":7070"

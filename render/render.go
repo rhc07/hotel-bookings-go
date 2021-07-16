@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/rhc07/basic-web-app/pkg/config"
-	"github.com/rhc07/basic-web-app/pkg/models"
+	"github.com/rhc07/hotel-bookings-go/pkg/config"
+	"github.com/rhc07/hotel-bookings-go/pkg/models"
 )
 
 // template.FuncMap{} is empty. A map of functions that you can use in a template

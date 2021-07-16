@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/rhc07/basic-web-app/pkg/config"
-	"github.com/rhc07/basic-web-app/pkg/models"
-	"github.com/rhc07/basic-web-app/render"
+	"github.com/rhc07/hotel-bookings-go/pkg/config"
+	"github.com/rhc07/hotel-bookings-go/pkg/models"
+	"github.com/rhc07/hotel-bookings-go/render"
 )
 
 // Repo is the repository used by the handlers
